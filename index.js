@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 //this sends the html file to the web page using the root directory
 //
-app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/index.html")
+app.get("/VolCalc", function(req, res) {
+  res.sendFile(__dirname + "/VolCalculator.html")
 });
 
 // this gets the response from the values in the web page
